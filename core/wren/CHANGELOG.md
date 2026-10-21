@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.16.1](https://github.com/Canner/WrenAI/compare/wren-v0.16.0...wren-v0.16.1) (2026-10-21)
+
+
+### Bug Fixes
+
+* constrain MCP SDK to the supported major version ([#2810](https://github.com/Canner/WrenAI/issues/2810)) ([0ff9382](https://github.com/Canner/WrenAI/commit/0ff9382a82dcd1ff16776e485e40456e339e3ebe))
+* preserve dbt tests and relationships for quoted columns ([#2811](https://github.com/Canner/WrenAI/issues/2811)) ([aa9432e](https://github.com/Canner/WrenAI/commit/aa9432ec42e93519b23b86bb47e48d6e360d3a30))
+* **wren:** keep `just test` collecting without the postgres extra ([#2801](https://github.com/Canner/WrenAI/issues/2801)) ([5a287c5](https://github.com/Canner/WrenAI/commit/5a287c5befd6f52db71d12593d0848f2dd0c0299))
+* **wren:** resolve model aliases within SQL query scopes ([#2798](https://github.com/Canner/WrenAI/issues/2798)) ([b04ac03](https://github.com/Canner/WrenAI/commit/b04ac034e2f76db189c26e0b574015d39a5fd4d5))
+* **wren:** serialize shared DuckDB connection access ([#2797](https://github.com/Canner/WrenAI/issues/2797)) ([3e82da3](https://github.com/Canner/WrenAI/commit/3e82da311f3e79501d54b57531de3bbc84e5da9b))
+* **wren:** translate dialect-neutral SQL that ClickHouse rejects or misreads ([#2783](https://github.com/Canner/WrenAI/issues/2783)) ([6975f82](https://github.com/Canner/WrenAI/commit/6975f829de046d446ab16801cbec9a4d81dae88c))
+
 ## [0.16.0](https://github.com/Canner/WrenAI/compare/wren-v0.15.0...wren-v0.16.0) (2026-10-16)
 
 
